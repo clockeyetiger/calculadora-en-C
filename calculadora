@@ -27,7 +27,7 @@ int main () {
 
 switch (operador) {
         case '1':
-            resultado = num1 + num2;
+            resultado = suma(num1,num2);
             printf("Resultado = %f\n",resultado);
             break;
         case '2':
