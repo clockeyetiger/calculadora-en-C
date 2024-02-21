@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+float suma(float num1,float num2){
+   return num1 +=num2;
+}
 float multiplicacion(float num1, float num2){
     return num1 *=num2;
 }
