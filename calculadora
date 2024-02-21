@@ -10,5 +10,15 @@ int main () {
 
             float num1, num2, resultado;
             char operador;
+  do{
+    printf("Calculadora \n");
+    printf("1. Suma\n");
+    printf("2. Resta\n");
+    printf("3. Multiplicar\n");
+    printf("4. Dividir\n");
+    printf(" 0. Salir \n");
+    printf("ingrese una opcion: \n");
+    scanf("%f",&operador);
+    } while (operador != 0);
   
 }
