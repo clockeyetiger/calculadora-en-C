@@ -9,9 +9,11 @@ float multiplicacion(float num1, float num2){
 }
 
 int main () {
-
+            
             float num1, num2, resultado;
             char operador;
+
+           
   do{
     printf("Calculadora \n");
     printf("1. Suma\n");
@@ -22,7 +24,13 @@ int main () {
     printf("ingrese una opcion: \n");
     scanf("%f",&operador);
     } while (operador != 0);
-  
+
+            printf("ingresa el primer numero: \n");
+            scanf("%d, &num1");
+
+            printf("ingresa el segundo numero: \n");
+            scanf("%d, &num2");
+
 }
 
 switch (operador) {
