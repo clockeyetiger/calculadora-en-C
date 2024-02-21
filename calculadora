@@ -22,3 +22,24 @@ int main () {
     } while (operador != 0);
   
 }
+
+switch (operador) {
+        case '1':
+            resultado = num1 + num2;
+            break;
+        case '2':
+            resultado = num1 - num2;
+            break;
+        case '3':
+            resultado = num1 * num2;
+            break;
+        case '4':
+            resultado = num1 / num2;
+            break;
+
+        case '0':
+            
+        default:
+            printf("operador invalido. ");
+            return 0;
+    }
