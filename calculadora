@@ -28,15 +28,19 @@ int main () {
 switch (operador) {
         case '1':
             resultado = num1 + num2;
+            printf("Resultado = %f\n",resultado);
             break;
         case '2':
             resultado = num1 - num2;
+            printf("Resultado = %f\n",resultado);
             break;
         case '3':
-            resultado = num1 * num2;
+            resultado = multiplicacion(num1,num2);
+            printf("Resultado = %f\n",resultado);
             break;
         case '4':
             resultado = num1 / num2;
+            printf("Resultado = %f\n",resultado);
             break;
 
         case '0':
