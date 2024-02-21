@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main () {
+
+            float num1, num2, resultado;
+            char operador;
+  
+}
